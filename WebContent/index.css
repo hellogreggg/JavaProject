@@ -19,16 +19,16 @@
     padding-top: 25px;
      text-align: center;
      font-size: 50px;
-     color: lightgray;
+
 }
 
 .body{
   display: grid;
 	height: 100%;
 	width:100%;
-  grid-template-columns: auto 50%;
+  grid-template-columns: auto;
 	grid-template-areas:
-	"main content" ;
+	"main";
 
 }
 
@@ -51,7 +51,8 @@ img {
 #btnplay{
   background-color: #28a745;
   padding: 20px 100px 20px;
-  border-color:  #1d1e1b;
+  border-color:  white;
+  border-radius: 5px;
   margin-left: 30%;
 
 
