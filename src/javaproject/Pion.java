@@ -4,6 +4,7 @@ import java.awt.Color;
 
 public class Pion {
 	
+	private Shape shape;
 	private int hoogte;
 	private int breedte;
 	private Color kleur;
