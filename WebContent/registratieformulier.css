@@ -1,4 +1,8 @@
-th, td {
-    padding: 15px;
-    text-align: left;
+body{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+h5{
+    margin-top:16px;
 }

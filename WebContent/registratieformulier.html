@@ -1,38 +1,97 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
     <title>Registratieformulier</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="registratieformulier.css" />
     <script src="main.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <h5>Registratieformulier</h5><br>
     <form method="POST" action="">
-        <table>
-            <tr><th>Registratieformulier</th></tr>
-            <tr><td>Naam : </td>
-                <td><input type="text"></td>
-            </tr>
-            <tr><td>Gebruikersnaam:</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr><td>Wachtwoord:</td>
-                <td><input type="password"></td>
-            </tr>
-            <tr><td>kleur pion:</td>
-                <td><input type="color"></td>
-            </tr>
-            <tr><td>Pion vorm</td>
-                <td>
-                <input type="radio" name="pionShape" value="vierkant">Vierkant<br>
-                <input type="radio" name="pionShape" value="rond" checked="checked">Rond<br>
-                <input type="radio" name="pionShape" value="driehoek">Driehoek<br>
-                <input type="radio" name="pionShape" value="hexagon">Hexagon<br>
-                </td>
-            </tr>
-        </table>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Naam:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="naam" placeholder="naam">
+            </div>  
+        </div>
+
+        <div class="form-group row">
+           <label for="inputEmail3" class="col-sm-2 col-form-label">Gebruikersnaam</label>
+           <div class="col-sm-10">
+              <input type="text" class="form-control" id="gebruikersnaam" placeholder="Gebruikersnaam">
+            </div>
+        </div>
+
+          <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Wachtwoord</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="wachtwoord" placeholder="Password">
+            </div>
+          </div>
+
+          <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">kleur pion</label>
+                <div class="col-sm-10">
+                  <input type="color" class="form-control" id="kleur" placeholder="kleur pion">
+                </div>
+              </div>
+
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Pion vorm</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="vorm" id="vorm" value="vierkant" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Vierkant
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="vorm" id="rond" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Rond
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="vorm" id="driehoek" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                    Driehoek
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                        <input class="form-check-input" type="radio" name="vorm" id="hexagon" value="option4">
+                        <label class="form-check-label" for="gridRadios3">
+                          Hexagon
+                        </label>
+                      </div>
+              </div>
+            </div>
+          </fieldset>
+        
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Registreren</button>
+            </div>
+          </div>
     </form>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
 </body>
 </html>

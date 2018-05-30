@@ -1,0 +1,91 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px   ;
+    background-color: #E5E4E2;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    position: relative;
+    
+  }
+  .grid-item {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .grid-empty{
+    width: 5px;
+    height: 5px;
+    
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  .grid-one{
+    width: 5px;
+    height: 5px;
+    background-color: rgba(255, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  .grid-two{
+    width: 5px;
+    height: 5px;
+    background-color: rgba(0, 0, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  .grid-three{
+    width: 5px;
+    height: 5px;
+    background-color: rgba(0, 255, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  .grid-four{
+
+    width: 5px;
+    height: 5px;
+    background-color: rgba(255, 255, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+
+
+  }
